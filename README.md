@@ -21,5 +21,5 @@ $ java -jar ../../lib/pdfbox-app-2.0.17.jar PDFToImage [OPTIONS] <PDF file>`
 
 | Parámetro | Descripción |
 | ------ | ------ |
-|**<PDF file>**| tiene que ser la ruta de un archivo con extensión **.pdf**|
+|**PDF file**| tiene que ser la ruta de un archivo con extensión **.pdf**|
 |**[OPTIONS]**| **-imageType png/jpg** para el de formato de salida. Por defecto será jpg. [(más opciones)](https://pdfbox.apache.org/2.0/commandline.html#pdftoimage)|
