@@ -27,13 +27,13 @@ $ java -jar ../../lib/pdfbox-app-2.0.17.jar PDFToImage [OPTIONS] <PDF file>`
 
 #### DOCS2PDF
 En Linux
-Se requiere installar la libreria **unoconv** 
+Se requiere instalar la libreria **unoconv** 
 para su instalación ejecutamos el siguiente comando 
  
 ```sh
 $ sudo apt install unoconv`
 ```
-Ejecutando el siguiente comando obtendremos un **pdf** con el mismo nombre como resultado de la conversion de archivo **.docx**
+Ejecutando el siguiente comando obtendremos un **pdf** con el mismo nombre como resultado de la conversión del archivo **.docx**
 
 ```sh
 $ unoconv  <doc file>`
