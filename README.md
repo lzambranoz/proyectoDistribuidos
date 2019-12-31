@@ -23,3 +23,23 @@ $ java -jar ../../lib/pdfbox-app-2.0.17.jar PDFToImage [OPTIONS] <PDF file>`
 | ------ | ------ |
 |**PDF file**| tiene que ser la ruta de un archivo con extensión **.pdf**|
 |**[OPTIONS]**| **-imageType png/jpg** para el de formato de salida. Por defecto será jpg. [(más opciones)](https://pdfbox.apache.org/2.0/commandline.html#pdftoimage)|
+
+
+#### DOCS2PDF
+En Linux
+Se requiere installar la libreria **unoconv** 
+para su instalación ejecutamos el siguiente comando 
+ 
+```sh
+$ sudo apt install unoconv`
+```
+Ejecutando el siguiente comando obtendremos un **pdf** con el mismo nombre como resultado de la conversion de archivo **.docx**
+
+```sh
+$ unoconv  <doc file>`
+```
+
+| Parámetro | Descripción |
+| ------ | ------ |
+|**doc file**| tiene que ser la ruta de un archivo con extensión **.docx**|
+
