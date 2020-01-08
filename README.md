@@ -43,3 +43,14 @@ $ unoconv  <doc file>`
 | ------ | ------ |
 |**doc file**| tiene que ser la ruta de un archivo con extensión **.docx**|
 
+### ALOJAMIENTO DE SITIO WEB
+Se realizó inicialmente un registro de dominio en AWS Route 53, para lazal-converter.com.
+El sitio web fue escrito en html con hojas de estilo css, alojado en 2 buckets de S3. 
+
+El archivo de inicio index.html y el contenido estático se encuentra en el bucket lazal-converter.com (el contenido de la página web es el mismo que existe en este repositorio dentro del directorio "webPage") y el bucket www.lazal-converter.com fue creado como un subdominio que se redireccionará al primero. 
+
+Los endpoints respectivos de cada bucket son: http://www.lazal-converter.com.s3-website-sa-east-1.amazonaws.com y http://lazal-converter.com.s3-website-sa-east-1.amazonaws.com. Se eligió la zona de América del Sur(Sao Paulo) para reducir la latencia debido a la distancia geográfica de las consultas porque solo serán probadas en nuestra localidad.
+
+Ya existe el acceso público al sitio web a partir de cualquiera de los dos alias lazal-converter.com y www.lazal-converter.com
+
+
