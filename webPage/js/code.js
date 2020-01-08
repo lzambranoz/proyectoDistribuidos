@@ -79,7 +79,7 @@ function agregarDisclaimer() {
 // para mostrar/ocultar los elementos con clase topico/logo-seccion respectivamente
 
 
-}
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
